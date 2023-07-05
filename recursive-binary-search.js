@@ -17,5 +17,5 @@ function binarySearch(array, item, low = 0, high = array.length - 1) {
   }
 }
 
-const arr = [1, 2, 3, 5, 4];
-console.log(binarySearch(arr, 2));
+const arr = [1, 5, 10,  11];
+console.log(binarySearch(arr, 11));
