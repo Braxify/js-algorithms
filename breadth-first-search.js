@@ -27,4 +27,6 @@ graph.peggy = [];
 graph.thom = [];
 graph.jonny = [];
 
-breadthFirstSearch(graph, "you");
+breadthFirstSearch(graph, "you"); // thom is a mango seller.
+breadthFirstSearch(graph, "bob"); // thom is a mango seller.
+breadthFirstSearch(graph, "claire"); //
