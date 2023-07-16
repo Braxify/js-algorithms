@@ -20,4 +20,7 @@ function binarySearch(array, item) {
 }
 
 const arr = [1, 2, 3, 4];
+const arr2 = [1, 2, 3, 4, 5];
 console.log(binarySearch(arr, 2));
+console.log(binarySearch(arr, 5));
+console.log(binarySearch(arr2, 3));
