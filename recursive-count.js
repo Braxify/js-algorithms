@@ -7,3 +7,5 @@ function recursiveCount(arr) {
 
 const a = [1, 2, 3, 4, 5];
 console.log(recursiveCount(a));
+const b = [];
+console.log(recursiveCount(b));
