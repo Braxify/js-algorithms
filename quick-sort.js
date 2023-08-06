@@ -28,6 +28,6 @@ function quickSort2(arr) {
     return quickSort(lessThanPivot).concat([pivot], quickSort(greaterThanPivot));
 }
 
-const a = [9, 8, 1, 5];
+const a = [9, 8, 1, 5, -1, 0];
 console.log(quickSort(a));
 console.log(quickSort2(a));
