@@ -1,10 +1,16 @@
+/**
+ * Функция бинарного поиска.
+ * @param {Array} array - ОТСОРТИРОВАННЫЙ массив.
+ * @param {*} item - Искомый элемент.
+ * @returns {number|null} - Индекс найденного элемента или null, если элемент не найден.
+ */
 function binarySearch(array, item) {
   let low = 0;
   let high = array.length - 1;
 
   while (low <= high) {
-    let mid = Math.floor((low + high) / 2);
-    let guess = array[mid];
+    const mid = Math.floor((low + high) / 2);
+    const guess = array[mid];
 
     if (guess === item) {
       return mid;
