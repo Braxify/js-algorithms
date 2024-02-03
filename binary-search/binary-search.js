@@ -1,7 +1,7 @@
 /**
  * Функция бинарного поиска.
- * @param {Array} array - ОТСОРТИРОВАННЫЙ массив.
- * @param {*} item - Искомый элемент.
+ * @param {Array<number>} array - ОТСОРТИРОВАННЫЙ массив.
+ * @param {number} item - Искомый элемент.
  * @returns {number|null} - Индекс найденного элемента или null, если элемент не найден.
  */
 function binarySearch(array, item) {

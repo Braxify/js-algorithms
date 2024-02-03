@@ -62,8 +62,3 @@ while (node !== null) {
 }
 
 console.log("costs", costs);
-
-
-
-
-
